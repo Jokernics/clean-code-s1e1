@@ -21,6 +21,7 @@
 }
 
 @media (max-width: 768px) {
+
   .instruction {
     text-align: center;
   }
@@ -122,7 +123,7 @@
   vertical-align: middle;
 }
 
-..todo__input_checkbox {
+.todo__input_checkbox {
   margin: 0 10px;
 }
 

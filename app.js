@@ -31,6 +31,7 @@ var createNewTaskElement=function(taskString){
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+    
 
     listItem.className = "task"
 
@@ -48,6 +49,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.className="task__btn task__btn_delete todo__btn";
     deleteButtonImg.src='./remove.svg';
     deleteButtonImg.className = 'task__btn_delete__img'
+    deleteButtonImg.alt = 'Delete Button'
     deleteButton.appendChild(deleteButtonImg);
 
 
